@@ -138,10 +138,10 @@ def main():
     #ap.add_argument("--units", default="data/units.csv")
 
     #Version 1 Unit Balance
-    ap.add_argument("--units", default="output/units.balanced.v1.csv")
+    #ap.add_argument("--units", default="output/units.balanced.v1.csv")
 
     #Version 2 Unit Balance
-    #ap.add_argument("--units", default="output/units.balanced.v2.csv")
+    ap.add_argument("--units", default="output/units.balanced.v2.csv")
     
     ap.add_argument("--trials", type=int, default=2000,
                     help="duels per unit pairing (split evenly on who strikes first)")
