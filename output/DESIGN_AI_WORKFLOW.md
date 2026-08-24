@@ -1,4 +1,4 @@
-# Design AI Workflow
+# Design AI Workflow 🤖
 Document how you used AI to do the design work — not just to write prose:
 
 ## 1. AI Tools used
