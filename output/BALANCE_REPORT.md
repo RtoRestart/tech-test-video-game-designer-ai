@@ -8,13 +8,14 @@ With the information gather from the Simulation using the initial stats for the 
   this makes Ser Halden the current Auto-pick and Pyraxis the trap pick, with its high cost making players think its really strong when in its current state isn't.
 - Brennan is the most balanced unit right now, it has a win% of 51.2% and a win%/cost of 9.32, I still want to tweak this unit a little bit and see if I can get it closer to 50 while also increasing the cost a little bit so that the win%/cost gets to around 10
 - Rockwood high-speed makes it so he can perform a double attack on almost all enemies and his attack output is quite high, so it would be best to reduce it a bit
-- We can use the win%/Cost to determine the order in units from most powerful to less, this will help us determine by how much we need to adjust the stats of each unit
-  1. Ser Halden (Knight)
-  2. Wisp (Cleric)
-  3. Rookwood (Myrmidon)
-  4. Brennan (Soldier)
-  5. Sable (Archer)
-  6. Pyraxis (Battlemage)
+- We can use the win%/Cost to determine the order in units from most powerful to less, this will help us determine by how much we need to adjust the stats of each unit:
+  
+1. Ser Halden (Knight)
+2. Wisp (Cleric)
+3. Rookwood (Myrmidon)
+4. Brennan (Soldier)
+5. Sable (Archer)
+6. Pyraxis (Battlemage)
 
 ## 2. Changes
 *what you changed and the reasoning per change.*
