@@ -25,7 +25,7 @@ have the Turns to kill, hit chance, and the win % against each of the enemies in
     were pre-calculated by the AI meaning that any changes done to the spreadsheet would result in no changes to the values, so
     I had to manually modify the spreadsheet to add the formulas so that I could start balancing the different units.
 
-**3. Getting the Simulation to Run (lol):** How can I run this Python Program (pasted code)
+**3. Getting the Simulation to Run (lol):** give me a step by step guide on how I can run this python program (pasted code)
 
     I'm not a programmer so I had some issues making the simulation run, So I used chatGPT to instruct me on how to run the program, which worked 
     great and allowed me to continue my work on the assignment, I also asked how the simulation was calculating the win%, which surprised me a little bit since
