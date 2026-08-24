@@ -89,5 +89,54 @@ Note: The 5% minimum ensures that debuffs are never completely impossible, while
 | +5             | 20%           |
 | +10            | 30%           |
 
+## 4. Changes to Units 👤
+| Unit | Class | Element |
+|------|-------|---------|
+| Rookwood | Myrmidon | Fire 🔥  |
+| Pyraxis | Battlemage | Fire 🔥 |
+| Ser Halden | Knight | Ice 🧊 |
+| Wisp | Cleric | Ice 🧊 |
+| Brennan | Soldier | Poison 🧪  |
+| Sable | Archer | Poison 🧪|
+
+## 5. Changes to Enemies 💀
+| Enemy | Element | Encounter Area |
+|-------|---------|----------------|
+| Gate Wretch | Fire 🔥 | The Sunken Gate |
+| Bog Acolyte | Poison 🧪 | The Sunken Gate |
+| Throne Guard | Ice 🧊 | The Hollow Throne |
+| Crown Magus | Ice 🧊 | The Hollow Throne |
 
 
+## 6. Feedback / UI 📣
+### 6.1 Unit & Enemy Affinity 👥
+The unit's elemental affinity should be visible on:
+- Unit / Enemy information panel
+- Battlefield unit frame
+- Deployment screen
+
+Each element should have a distinct icon and visual treatment.
+
+### 6.2 Attack Preview and Reinforcement
+Before an attack is confirmed, the combat preview should clearly communicate the elemental interaction to the player.
+
+Example:
+
+FIRE → ICE = ADVANTAGE
+
+The elemental matchup is reinforced through both visual and audio feedback:
+
+- **🟢 Advantage:** A positive reinforcement sound effect plays, accompanied by a "Super Effective!" message that briefly appears on screen.
+- **⚪ Neutral:** No additional sound effect or text is displayed, keeping the feedback unobtrusive when there is no elemental interaction.
+- **🔴 Disadvantage:** A negative reinforcement sound effect plays, accompanied by a "Not Very Effective" message that briefly appears on screen.
+
+This feedback should allow players to quickly understand the effectiveness of their attack without requiring them to memorize or manually calculate the elemental relationships.
+
+
+## 7. Edge Cases 🔪
+| Edge Case | Rule |
+|-----------|------|
+| Multiple hits with elemental modifier | Each individual strike receives the applicable elemental modifier. |
+| Critical hits with elemental modifier | The elemental modifier is applied first, then the critical multiplier is applied. The final damage value is rounded afterwards. |
+| Elemental modifier reduces damage below 1 | Damage can never be lower than 1. If the modified damage falls below 1, it is rounded up to 1. |
+| Missing elemental data | All units should have an assigned elemental affinity. If a unit has no affinity assigned, a random element is assigned to prevent errors or crashes. |
