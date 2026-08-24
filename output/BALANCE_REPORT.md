@@ -24,6 +24,11 @@ With the information gather from the Simulation using the initial stats for the 
 - Rookwood: Slight reduction to ATK and DEF. Cost unchanged, due to this unit high speed the damage was reduced a bit to make it more balanced.
 - Pyraxis received the highest buff, reducing its cost by 2 and getting his defense and HP increased, plus +1 to his SPD
 - the other classes received minor adjustments to get their win% closer to 50%
+
+**Version 2**
+- With Version 2 I moved away from keeping units tightly grouped around a similar power-to-cost ratio and instead gave individual units more distinct strengths and weaknesses, this creates a more interesting roster of units and encourages different combinations of units for the team.
+- I re-balanced the table taking into account that units like the Archer, Battlemage and Cleric have a higher range than the other units which is not being taken into account in the python simulation, which would make them a bit more stronger in the real game
+
 ## 3. Before/After
 *simulator output showing the roster moved toward your target (e.g. tighter win-rate spread, flatter cost-efficiency). Show at least two iterations — your first fix will not be your last.*
 
