@@ -133,8 +133,16 @@ def run(units, trials, seed):
 
 def main():
     ap = argparse.ArgumentParser()
+    
+    #Initial Unit Stats
     #ap.add_argument("--units", default="data/units.csv")
-    ap.add_argument("--units", default="output/units.balanced.csv")
+
+    #Version 1 Unit Balance
+    ap.add_argument("--units", default="output/units.balanced.v1.csv")
+
+    #Version 2 Unit Balance
+    #ap.add_argument("--units", default="output/units.balanced.v2.csv")
+    
     ap.add_argument("--trials", type=int, default=2000,
                     help="duels per unit pairing (split evenly on who strikes first)")
     ap.add_argument("--seed", type=int, default=42)
