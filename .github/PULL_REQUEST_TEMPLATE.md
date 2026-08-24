@@ -12,11 +12,13 @@ Each Unit and Enemy has an elemental affinity: Fire, Ice, or Poison, forming a R
 Elemental Debuffs add another layer of decision-making by giving each element a unique status effect, encouraging players to consider not only which element to use, but also when and how to use it.
 
 ## Key balance changes (and why)
+rebalanced the Units so that their win%/cost is similar but also rebalanced taking into account enemies encounters and the classes that have extended range, changed battlemage from being a trap pick unit, it's still an expensive cost hero but now it is worth its cost while not being to OP, rebalanced Ser Halden Knight from being an auto-include. now all units have a  WIN%/COST within 7.5 to 8.3. making them all viable options to play with.
 
 ## How to reproduce my results
 
 ```bash
-python3 sim/simulate.py --units output/units.balanced.csv
+- To obtain the Version 1 results: go to the python script, and uncomment line 141, and then comment lines 138 and 144
+- To obtain the Version 1 results: go to the python script, and uncomment line 144, and then comment lines 138 and 141
 ```
 
 ## Trade-offs
@@ -24,7 +26,7 @@ python3 sim/simulate.py --units output/units.balanced.csv
 ## Checklist
 
 - [x] `output/GDD.md` — one core system, scoped to combat
-- [ ] `output/units.balanced.csv` — rebalanced roster
-- [ ] `output/BALANCE_REPORT.md` — diagnosis + ≥2 iterations + before/after sim output
-- [ ] `output/DESIGN_AI_WORKFLOW.md` — how I used AI
-- [ ] No unit is an auto-include or a trap pick
+- [x] `output/units.balanced.csv` — rebalanced roster
+- [x] `output/BALANCE_REPORT.md` — diagnosis + ≥2 iterations + before/after sim output
+- [x] `output/DESIGN_AI_WORKFLOW.md` — how I used AI
+- [x] No unit is an auto-include or a trap pick
