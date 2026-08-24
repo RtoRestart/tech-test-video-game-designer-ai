@@ -76,8 +76,9 @@ Version 2.0 aims to introduce more variation in unit costs. In the previous vers
 
 This version also accounts for the Range advantage of the Cleric, Archer, and Battlemage, which the duel simulator cannot measure. These units are therefore slightly weaker in the win%/cost of the simulation to compensate for their stronger positioning potential in real encounters.
 
-The Battlemage has also received a power increase alongside a higher cost.
+The Battlemage has also received a power increase alongside a higher cost, to make it stand out while being balanced to its cost.
 
+This version of the balance does not include any auto-include or trap pick heroes
 
 
 ## 4.Limitations
