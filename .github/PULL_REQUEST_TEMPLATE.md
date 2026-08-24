@@ -2,7 +2,7 @@
 
 - **Name:** Pedro Pablo Restrepo
 - **Email:** pedroprestrepol@gmail.com
-- **Time spent:** 
+- **Time spent:** 4.5 hours (most of my time was spent figuring out how to make the simulation run and figuring out how to write in github😅)
 
 ## What I designed
 I designed an additional layer to the combat system that introduces two mechanics aimed at making combat decisions more meaningful: Elemental Matchups and Elemental Debuffs.
