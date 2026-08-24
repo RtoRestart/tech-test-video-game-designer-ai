@@ -2,7 +2,7 @@
 
 
 ## 1. Overview 📘
-The Elemental Advantage System adds an additional layer of complexity and decision-making to combat by introducing three elements that interact through a rock-paper-scissors-style counter triangle.
+The Elemental Advantage System adds an additional layer of complexity and decision-making to combat by introducing three elements that interact through a **rock-paper-scissors-style counter triangle.**
 
 Each element is strong against one element and weak against another, encouraging players to consider elemental matchups when choosing which units to deploy and which enemies to engage.
 
