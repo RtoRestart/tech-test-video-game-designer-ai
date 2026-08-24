@@ -32,7 +32,7 @@ This system is designed to add an additional layer of decision-making to combat 
 ### 3.1 Elemental Affinity ⚛️
 Each unit and enemy is assigned a permanent elemental affinity that determines which element they are strong against and which they are weak against. An elemental affinity cannot be changed during combat.
 
-PD: Although it would be pretty cool to have a boss that changes its elemental affinity every time it is attacked :D, I think there is a boss like this in Sea of Stars if I remember correctly
+PD: Although it would be pretty cool to have a boss that changes its elemental affinity every time it is attacked :D, I think there is a boss like this in Sea of Stars or Expedition 33 if I remember correctly
 
 ### 3.2 Advantage / Disadvantage Modifier 🌟
 | Matchup     | Damage Modifier |
